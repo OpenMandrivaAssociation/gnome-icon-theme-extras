@@ -1,12 +1,11 @@
 Summary: GNOME default extra icons
 Name: gnome-icon-theme-extras
-Version: 3.4.0
+Version: 3.6.2
 Release: %mkrel 1
 License: CC-BY-SA
 Group: Graphical desktop/GNOME
 URL: http://www.gnome.org/
-Source0: ftp://ftp.gnome.org/pub/GNOME/sources/%{name}/%{name}-%{version}.tar.xz
-BuildRoot: %{_tmppath}/%{name}-%{version}-buildroot
+Source0: ftp://ftp.gnome.org/pub/GNOME/sources/%{name}/3.6/%{name}-%{version}.tar.xz
 BuildRequires: icon-naming-utils >= 0.8.1
 BuildRequires: git-core
 #BuildRequires: inkscape
@@ -28,14 +27,8 @@ GNOME default extra icons
 %make
 
 %install
-rm -rf $RPM_BUILD_ROOT
-
 %makeinstall_std
 
-%clean
-rm -rf $RPM_BUILD_ROOT
-
 %files
-%defattr(-,root,root,-)
 %doc README COPYING NEWS AUTHORS
 %{_datadir}/icons/gnome/*x*
