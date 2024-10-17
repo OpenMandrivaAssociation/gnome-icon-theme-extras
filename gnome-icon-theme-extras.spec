@@ -4,7 +4,7 @@ Version: 3.12.0
 Release: 1
 License: CC-BY-SA
 Group: Graphical desktop/GNOME
-URL: http://www.gnome.org/
+URL: https://www.gnome.org/
 Source0: ftp://ftp.gnome.org/pub/GNOME/sources/%{name}/3.12/%{name}-%{version}.tar.xz
 BuildRequires: icon-naming-utils >= 0.8.1
 BuildRequires: git-core
