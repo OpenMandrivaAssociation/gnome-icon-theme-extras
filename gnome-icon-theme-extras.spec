@@ -1,7 +1,7 @@
 Summary: GNOME default extra icons
 Name: gnome-icon-theme-extras
 Version: 3.12.0
-Release: 1
+Release: 2
 License: CC-BY-SA
 Group: Graphical desktop/GNOME
 URL: https://www.gnome.org/
